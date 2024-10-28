@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBLACK"
+    tools:context=".sambar">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="436dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sambar" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- LinearLayout for title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="11dp">
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="1dp"
+                    android:text="Sambar"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Ingredients :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Toor Dal (split pigeon peas) - ½ cup\n\
+Vegetables (drumstick,eggplant,okra,onion,tomato) - 1 to 1.5 cups -choped\n
+Tamarind pulp - 1 tablespoon (or tamarind extract)\n
+Sambar powder - 2 to 3 tablespoons\n
+Turmeric powder - ½ teaspoon\n
+Red chili powder - 1 teaspoon (or to taste)\n
+Salt - To taste\n
+Jaggery - 1 teaspoon (optional)\n
+Curry leaves - 1 sprig\n
+Mustard seeds - ½ teaspoon\n
+Urad dal (split black lentils) - ½ teaspoon\n
+Chana dal (split chickpeas) - ½ teaspoon\n
+Dried red chilies - 2 to 3\n
+Asafoetida (hing) - a pinch\n
+Oil or ghee - 2 tablespoons"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="8dp"
+                    android:text="Can make upto 3 - 4 plates of sambar"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Check Alternate Ingredients"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                <ImageButton
+                    android:id="@+id/button"
+                    app:srcCompat="@drawable/altt"
+                    android:background="@drawable/buttonbyme"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:layout_width="128dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+            <!-- LinearLayout for paragraph -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Method of Preparation :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="To make sambar, start by pressure-cooking the toor dal with turmeric powder and enough water until soft. Meanwhile, sauté the chopped vegetables with oil or ghee in a pot, adding tamarind pulp, sambar powder, red chili powder, salt, and jaggery (if using). Once the vegetables are tender, add the cooked dal along with the required amount of water to adjust the consistency. Bring the sambar to a boil, simmering for a few minutes to blend the flavors. In a separate pan, temper mustard seeds, urad dal, chana dal, dried red chilies, curry leaves, and asafoetida in oil or ghee until the dals turn golden brown. Pour this tempering over the simmering sambar and mix well. Garnish with fresh coriander leaves (optional) and serve hot with dosa, idli, or rice. Enjoy your flavorful and aromatic sambar!"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                `            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/youtubeLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/appGOLD"
+                    android:text="👉Click here to watch making video 👈"
+                    android:textColorLink="#0000EE" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

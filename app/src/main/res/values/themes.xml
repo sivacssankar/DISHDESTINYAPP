@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DISHDESTINYAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.DISHDESTINYAPP" parent="Base.Theme.DISHDESTINYAPP" />
+    <style name="SpinnerWithWhiteText" parent="@android:style/Widget.Spinner">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0E1921</item>
+        <item name="colorPrimaryDark">#0E1921</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:windowBackground">#0E1921</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/background_color</item>
+        <item name="colorPrimaryDark">@color/background_color</item>
+        <item name="colorAccent">@color/text_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style> -->
+</resources>

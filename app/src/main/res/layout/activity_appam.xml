@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBLACK"
+    tools:context=".Appam">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="436dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appam" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- LinearLayout for title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="11dp">
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="1dp"
+                    android:text="Appam"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Ingredients :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="398dp"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="10dp"
+                        android:padding="8dp"
+                        android:text=" White rice - 2 cups\n
+Grated coconut - 1 cup\n
+Cooked rice - 2 tsp.\n
+Sugar - 2 tbsp.\n
+Yeast - ½ pinch\n
+Salt - to taste\n
+Water - 1/2 cup"
+                        android:textColor="@color/text_color"
+                        android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="8dp"
+                    android:text="Can make upto 10 - 12 Appam"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Check Alternate Ingredients"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+            <ImageButton
+                android:id="@+id/button"
+                app:srcCompat="@drawable/altt"
+                android:background="@drawable/buttonbyme"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:layout_width="128dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+            <!-- LinearLayout for paragraph -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Method of Preparation :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Soak white rice for six hours. Strain the water and grind the soaked rice along with grated coconut and cooked rice. Into this add sugar diluted in water and also the yeast. Keep the dough overnight to ferment. Just one hour before cooking, add salt and stir well.
+
+Now to make Appam, heat a pan and pour some rice dough. Lift the pan and spread the dough evenly. Keep it closed for a minute. Remove thecover and take out the cooked Appam.
+
+The fluffy Appam goes well with Indian curries."
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+`            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/youtubeLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/appGOLD"
+                    android:text="👉Click here to watch making video 👈"
+                    android:textColorLink="#0000EE" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

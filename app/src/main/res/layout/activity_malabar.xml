@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBLACK"
+    tools:context=".malabar">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="881dp"
+        android:layout_height="323dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/malabarmuttonbiriyani" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- LinearLayout for title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="11dp">
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="1dp"
+                    android:text="Malabar Mutton Biriyani"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Ingredients :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text=" Mutton - 1 kg\n
+Basmathi Rice - 1 kg\n
+Onion - 500 g\n
+Garlic - 50 g\n
+Ginger - 50 g\n
+Green Chilli - 100 g\n
+Coriander Powder - 3 tsp.\n
+Turmeric Powder - 1 tsp.\n
+Red Chilli Powder - half tsp.\n
+Tomato - 300 g\n
+Poppy Seeds - 2 tsp.\n
+Fresh Coconut - half cup\n
+Coriander Leaves - 1 small bunch\n
+Mint Leaves  - 1 small bunch\n
+Curd - as required\n
+Lime Juice - 4 tbsp.\n
+Ghee - 200 g\n
+Oil - as required\n
+Cashew Nuts - 500 g\n
+Raisins - 50 g\n
+Garam Masala Powder - 2 tsp.\n
+Salt - to taste\n
+For Garam Masala\n
+Cinnamon - 2 pieces\n
+Cardamom - 3-4 pieces\n
+Cloves - 3-4 pieces\n
+Nutmeg - quarter\n
+Aniseed - half tsp.\n
+Cumin Seed - half tsp.\n
+Mace - 2 strands"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="8dp"
+                    android:text="Can serve upto 10 plates"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Check Alternate Ingredients"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                <ImageButton
+                    android:id="@+id/button"
+                    app:srcCompat="@drawable/altt"
+                    android:background="@drawable/buttonbyme"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:layout_width="128dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+            <!-- LinearLayout for paragraph -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Method of Preparation :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Clean mutton and cut into big pieces. Grind green chillies, ginger and garlic. Grind poppy seeds and fresh coconut and keep aside. Chop coriander leaves and mint leaves.
+
+Heat a pressure cooker and add oil and 3/4 of the sliced onion and fry. Add ginger, garlic and green chillies and fry for 2-3 minutes. Add the coriander powder, chilli powder, turmeric powder, garam masala and sauté for some time and then add the chopped tomatoes and fry for some time. Add mutton and fry for a few minutes now add curd and salt. Cover the cooker and cook on slow fire for 15-20 minutes.
+
+When mutton is cooked, add the ground poppy seeds and coconut and heat for few minutes and keep aside.
+
+Wash and drain the water from the rice. Heat ghee and add rice and fry for 4-5 minutes. Add salt and double quantity of water and boil till the rice is cooked. Remove from fire.
+
+Heat a heavy-bottomed vessel and fry onions, cashew nuts and raisins and keep aside.
+
+Take a vessel and pour some rice and spread little coriander, mint leaves, limejuice, fried onions, cashew nuts and raisins. Put one layer of mutton over that and repeat the process till all rice and mutton are over. Cover with a heavy lid and put dish in oven or place some coals on top for 10 minutes. Serve with curd and papad."
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                `            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/youtubeLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/appGOLD"
+                    android:text="👉Click here to watch making video 👈"
+                    android:textColorLink="#0000EE" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

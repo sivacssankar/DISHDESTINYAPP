@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DISHDESTINYAPP"
+        tools:targetApi="31">
+        <activity
+            android:name=".sambar"
+            android:exported="false" />
+        <activity
+            android:name=".dosha"
+            android:exported="false" />
+        <activity
+            android:name=".eggcut"
+            android:exported="false" />
+        <activity
+            android:name=".unniyappam"
+            android:exported="false" />
+        <activity
+            android:name=".vattayappam"
+            android:exported="false" />
+        <activity
+            android:name=".pazhamporie"
+            android:exported="false" />
+        <activity
+            android:name=".mutton"
+            android:exported="false" />
+        <activity
+            android:name=".malabar"
+            android:exported="false" />
+        <activity
+            android:name=".ghee"
+            android:exported="false" />
+        <activity
+            android:name=".chicken"
+            android:exported="false" />
+        <activity
+            android:name=".pathiri"
+            android:exported="false" />
+        <activity
+            android:name=".kappaputtu"
+            android:exported="false" />
+        <activity
+            android:name=".iddli"
+            android:exported="false" />
+        <activity
+            android:name=".Appam"
+            android:exported="false" />
+        <activity
+            android:name=".chapati"
+            android:exported="false" />
+        <activity
+            android:name=".dinner"
+            android:exported="false" />
+        <activity
+            android:name=".snack"
+            android:exported="false" />
+        <activity
+            android:name=".lunch"
+            android:exported="false" />
+        <activity
+            android:name=".breakfast"
+            android:exported="false" />
+        <activity
+            android:name=".db"
+            android:exported="false" />
+        <activity
+            android:name=".firsttime"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

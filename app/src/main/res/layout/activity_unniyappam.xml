@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBLACK"
+    tools:context=".unniyappam">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="436dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unniyappam" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- LinearLayout for title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="11dp">
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="1dp"
+                    android:text="Unniy Appam"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Ingredients :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text=" Raw rice (soaked in water for 2hrs) - 1 cup\n
+Small banana - 1 piece\n
+Jaggery syrup made with 1 cup grated jaggery2 tbsp\nwater - 1 cup\n
+Cardamom (powdered) - 2\n
+Oil\n
+Coconut chopped fried in ghee - 2 tbsp"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="8dp"
+                    android:text="Can make upto 15 Unniy Appam"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Check Alternate Ingredients"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                <ImageButton
+                    android:id="@+id/button"
+                    app:srcCompat="@drawable/altt"
+                    android:background="@drawable/buttonbyme"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:layout_width="128dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+            <!-- LinearLayout for paragraph -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Method of Preparation :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Soak raw rice for 2 hours and grind it to a smooth, semi thick batter, adding jaggery syrup, banana and cardamom. Mix in coconut pieces fried in ghee. Heat oil in the Unniyappakaara (pan with cavities or moulds to deep fry the batter in oil) and pour in the batter to fill about half the capacity of each individual mould. Deep fry them, turning over till crispy and browned. Take them out of oil and put them on a strainer to let the excess oil drain off."
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                `            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/youtubeLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/appGOLD"
+                    android:text="👉Click here to watch making video 👈"
+                    android:textColorLink="#0000EE" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

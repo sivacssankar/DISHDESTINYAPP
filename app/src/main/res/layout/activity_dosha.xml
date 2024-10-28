@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBLACK"
+    tools:context=".dosha">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="436dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dosha" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- LinearLayout for title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="11dp">
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="1dp"
+                    android:text="Dosa"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Ingredients :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text=" Raw Rice - 3 cups\n
+Urad Dal (split black lentils) - 1 cup\n
+Fenugreek Seeds (methi) - 1 tablespoon\n
+Salt - 1 to 1.5 teaspoons (or to taste)\n
+Water - As needed for soaking,grinding"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="8dp"
+                    android:text="Can make upto 15 - 20 dosha"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Check Alternate Ingredients"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                <ImageButton
+                    android:id="@+id/button"
+                    app:srcCompat="@drawable/altt"
+                    android:background="@drawable/buttonbyme"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:layout_width="128dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+            <!-- LinearLayout for paragraph -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="Method of Preparation :"
+                    android:textColor="@color/appGOLD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10dp"
+                    android:padding="8dp"
+                    android:text="To make dosa, begin by washing and soaking the raw rice, urad dal, and fenugreek seeds separately for at least 4-6 hours. After soaking, drain the water and grind each ingredient separately, adding water as needed to form smooth pastes. Combine the rice and lentil pastes in a large bowl, adding salt to taste, and mix well to form a smooth batter. Allow the batter to ferment in a warm place for 8-12 hours or until it becomes light and airy. Once fermented, heat a non-stick tawa or griddle over medium heat. Pour a ladleful of batter onto the hot tawa, spreading it into a thin, circular shape using the back of the ladle. Drizzle a little oil or ghee around the edges and cook until the dosa turns golden brown and crispy underneath. Flip it over and cook the other side briefly. Fold or roll the dosa as desired and serve hot with your favorite chutneys and sambar. Enjoy your delicious homemade dosa!"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+                `            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/youtubeLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/appGOLD"
+                    android:text="👉Click here to watch making video 👈"
+                    android:textColorLink="#0000EE" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

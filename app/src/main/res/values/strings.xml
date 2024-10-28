@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DishDestiny</string>
+    <string name="meal_type_hint">Select Food Type</string>
+    <string-array name="meal_types">
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>SNACK</item>
+        <item>DINNER</item>
+    </string-array>
+
+
+</resources>
